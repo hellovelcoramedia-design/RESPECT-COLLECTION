@@ -1,0 +1,1 @@
+[{"name":"RESPECT Theme","settings":[{"type":"header","content":"Brand"},{"type":"text","id":"logo_text","label":"Logo","default":"RESPECT"},{"type":"color","id":"background","label":"Background","default":"#f4f1e9"},{"type":"color","id":"text","label":"Text","default":"#10100f"}]}]

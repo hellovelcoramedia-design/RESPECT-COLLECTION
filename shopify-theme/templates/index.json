@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "hero": {"type":"hero-3d","settings":{}},
+    "intro": {"type":"manifesto","settings":{}},
+    "worlds": {"type":"collection-cards","settings":{}},
+    "marquee": {"type":"marquee","settings":{}},
+    "products": {"type":"product-showcase","settings":{}},
+    "proof": {"type":"trust","settings":{}},
+    "newsletter": {"type":"newsletter","settings":{}}
+  },
+  "order": ["hero","intro","worlds","marquee","products","proof","newsletter"]
+}

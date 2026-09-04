@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="canonical" href="{{ canonical_url }}">
+<title>{% if page_title %}{{ page_title }} — {% endif %}{{ shop.name }}</title>{{ content_for_header }}
+</head><body class="rc-site">
+{% section 'announcement-bar' %}{% section 'header' %}<main id="MainContent">{{ content_for_layout }}</main>{% section 'footer' %}
+<script src="{{ 'respect.js' | asset_url }}" defer></script></body></html>

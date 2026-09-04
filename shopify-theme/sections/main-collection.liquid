@@ -1,0 +1,1 @@
+<section class="rc-main-collection"><div class="rc-collection-title"><p class="rc-kicker">COLLECTION</p><h1>{{ collection.title }}</h1><p>{{ collection.description }}</p></div><div class="rc-product-grid">{% for product in collection.products %}{% render 'product-card', product: product %}{% endfor %}</div></section>
